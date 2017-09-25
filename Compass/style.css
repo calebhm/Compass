@@ -1,0 +1,128 @@
+body {
+    cursor: default;
+}
+
+::selection {
+    background: transparent;
+}
+
+body {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+}
+
+#info {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 0.8em;
+    line-height: 1.4em;
+    color: #fff;
+    text-align: left;
+    min-width: 100%;
+    background-color: #222;
+    letter-spacing: 2px;
+}
+
+#n {
+    font-family: Helvetica, sans-serif;
+    color: #f00;
+    font-weight: 600;
+    position: absolute;
+    font-size: 2em;
+    text-align: center;
+    width: 100%;
+    top: 4%;
+}
+
+#e {
+    font-family: Helvetica, sans-serif;
+    color: #fff;
+    position: absolute;
+    font-size: 1.6em;
+    text-align: right;
+    width: 25%;
+    right: 6%;
+    top: 40%;
+}
+
+#s {
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+    color: #00f;
+    position: absolute;
+    font-size: 2em;
+    text-align: center;
+    width: 100%;
+    bottom: 4%;
+}
+
+#w {
+    font-family: Helvetica, sans-serif;
+    color: #fff;
+    position: absolute;
+    font-size: 1.6em;
+    text-align: left;
+    width: 25%;
+    left: 6%;
+    top: 40%;
+}
+
+#box {
+    border: 3px dotted #fff;
+    border-top: 3px dotted #f00;
+    border-bottom: 3px dotted #00f;
+    border-radius: 150px;
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 1.6em;
+    line-height: 2em;
+    color: #fff;
+    text-align: center;
+    left: 20%;
+    top: 20%;
+    max-width: 240px;
+    min-width: 240px;
+    max-height: 240px;
+    min-height: 240px;
+    background-color: #222;
+}
+
+#box2 {
+    border: 3px dotted #f00;
+    border-right: 0;
+    border-bottom: 0;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 37%;
+    top: -11%;
+    max-width: 60px;
+    min-width: 60px;
+    max-height: 60px;
+    min-height: 60px;
+    background-color: #222;
+}
+
+#box3 {
+    opacity: 0;
+    border-radius: 150px;
+    position: absolute;
+    left: 38%;
+    top: 38%;
+    max-width: 60px;
+    min-width: 60px;
+    max-height: 60px;
+    min-height: 60px;
+    background-color: #FFF;
+}
+
+#instruct {
+    font-family: Helvetica, sans-serif;
+    color: #fff;
+    position: absolute;
+    font-size: 0.8em;
+    text-align: center;
+    width: 100%;
+    top: 78%;
+}
